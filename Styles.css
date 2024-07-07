@@ -93,6 +93,17 @@ scroll-margin-top: .8em;
 .jumb-botao{
     padding-right:10px;
 }
+.info-informacao .row{
+    margin: 0 auto;
+}
+.info-informacao .conteudo{
+    box-shadow: -5px 0 10px 0 rgba(0,0,0,.22);
+    border-bottom: solid 3px red;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
 .botao2{
     background-color: #daa520e6;
     color: white;
@@ -159,8 +170,8 @@ scroll-margin-top: .8em;
     border-bottom: 1px solid rgba(0, 0, 0, .125);
     background-color: transparent;
 }
-.card-header:first-child{
-border-radius: 0 0 0;
+.card:last-child{
+    border-bottom: none;
 }
 #heading7, #heading13, #heading22{
     border-bottom: none;
