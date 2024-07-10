@@ -210,9 +210,27 @@ scroll-margin-top: .8em;
     padding-top: 70px;
 }
 
-.quemsomos, .procedimentos, .procedimento-1, .procedimento-2, .procedimento-3{
+.quemsomos, .procedimentos, .procedimento-1, .procedimento-2, .procedimento-3,.conteudo1, .conteudo2, .conteudo3, .conteudo4,.depoimentos{
     visibility: hidden;
 }
-.conteudo1, .conteudo2, .conteudo3, .conteudo4{
-    visibility: hidden;
+.carousel{
+}
+#Depoimentos{
+    margin: 20px 0;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,.22);
+
+}
+#Depoimentos .row{
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px 0;
+    
+}
+.conteudo-esq{
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.conteudo-dir{
+    
 }

@@ -1,6 +1,7 @@
 window.sr = ScrollReveal({reset: true});
 sr.reveal('.quemsomos', {duration:2000});
 sr.reveal('.procedimentos', {rotate: {x:0, y: 80, z: 0}, duration: 1000});
+sr.reveal('.depoimentos', {rotate: {x:0, y: 80, z: 0}, duration: 1000});
 sr.reveal('.procedimento-1', {duration: 2000});
 sr.reveal('.procedimento-2', {duration: 2000});
 sr.reveal('.procedimento-3', {duration: 2000});
