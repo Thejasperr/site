@@ -227,7 +227,7 @@ scroll-margin-top: .8em;
     background-size: cover;
     margin: 20px 0;
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,.22);
-
+    
 }
 #Depoimentos .row{
     margin: 0 auto;
@@ -242,12 +242,61 @@ scroll-margin-top: .8em;
 }
 
 .conteudo-dir{
-    height: 400px;
+
 }
-.wpp svg{
-    background: #a4c467;
+.voltar-comeco i{
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,.22);
+    background-color: #daa520e6;
     position: fixed;
-    bottom: 60px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    bottom: 20px;
     right: 32px;
     z-index: 9999;
+    border-radius: 50px;
+    line-height: 55px;
+    color: white;
 }
+.animation {
+    animation: alerta 1.5s infinite;
+}
+.wpp .botaowpp{
+    position: fixed;
+    bottom: 90px;
+    right: 32px;
+    z-index: 9999;
+    background: #09a513;
+    color: white;
+    border: 1px solid #09a513;
+    border-radius: 70px;
+    box-shadow: 0 0 0 0 rgba(9, 165, 19, 0.50);
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-decoration: none;
+}
+.botaowpp:hover, .botaowpp:active{
+    transition: 100ms linear !important;
+    transform: scale(1.11) !important;
+}
+
+@keyframes alerta {
+    0% {
+      transform: scale();
+    }
+    70% {
+      transform: scale();
+      box-shadow: 0 0 0 50px rgba(69, 152, 27, 0);
+    }
+      100% {
+      transform: scale();
+      box-shadow: 0 0 0 0 rgba(69, 152, 27, 0);
+    }
+  }
